@@ -539,7 +539,7 @@ def main():
                         fig_heatmap = px.density_heatmap(heatmap_df, x='x', y='y',
                                                        title='Fish Movement Heatmap',
                                                        labels={'x': 'X Position', 'y': 'Y Position'})
-                        fig_heatmap.update_yaxis(autorange="reversed")  # Flip Y axis for image coordinates
+                        fig_heatmap.update_yaxes(autorange="reversed")  # Flip Y axis for image coordinates
                         st.plotly_chart(fig_heatmap, use_container_width=True)
             
             else:

@@ -320,7 +320,7 @@ class StreamlitFishTracker:
 
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🐟 Fish Tracker Pro</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header"> Fish Tracker Pro</h1>', unsafe_allow_html=True)
     st.markdown("**Advanced fish tracking and analysis with YOLO + DeepSORT**")
     
     # Initialize tracker
